@@ -1,0 +1,180 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:black;
+}
+h1{
+  background-color: gray;
+  text-align: center;
+  padding: 30px;
+}
+ul{
+  background-color: lightslategrey;
+  text-align: center;
+
+}
+.above li{
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+.above li a{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.beginning li{
+  margin: 5;
+  padding: 10;
+
+}
+h4{
+  text-align: center;
+  background-color:lightgrey;
+}
+ol{
+  background-color:whitesmoke;
+text-align: left;
+}
+
+body {
+  margin: 39px;
+  padding: 0px;
+
+}
+.content {
+  margin: 0 20px;
+  padding: 20px; 
+  background-color: #f0f0f0; 
+}
+img{
+  margin: auto;
+}
+section{
+  background-color: whitesmoke;
+}
+h2{
+  background-color: lightslategray;
+  text-align: center;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: center;
+  color:#000000;
+}
+
+
+.navbar li a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+element.style {
+  padding-bottom: 514px;
+  margin: -120px 0px 0px;
+  position: relative;
+}
+
+
+footer {
+  display: block;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+body {
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-align:center;
+}
+body {
+  font-family: 16px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+}
+
+  header {
+    background-color: #000000; 
+    color: #000000; 
+    padding: 10px 20px;  
+    text-align: center; 
+    box-shadow: 0 2px 5px rgb(0, 0, 0); 
+  
+  }
+
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 10px; 
+    }
+  }
+  img{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:content-box;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    
+    background-image: url('path/to/your/image.jpg');
+    
+    height: 100vh;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.panel-grid-cell .panel-cell-style {
+  height: 100%;
+}
